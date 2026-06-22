@@ -1,0 +1,46 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003688",
+  "source": "openneuro",
+  "source_id": "ds003688",
+  "title": "Open multimodal iEEG-fMRI dataset from naturalistic stimulation with a short audiovisual film",
+  "authors": {
+    "Julia Berezutskaya": {},
+    "Mariska J. Vansteensel": {},
+    "Erik J. Aarnoutse": {},
+    "Zachary V. Freudenburg": {},
+    "Giovanni Piantoni": {},
+    "Mariana P. Branco": {},
+    "Nick F. Ramsey": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003688.v1.0.7",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.2.1",
+  "recording_modality": [
+    "anat",
+    "func",
+    "ieeg"
+  ],
+  "datatypes": [
+    "anat",
+    "func",
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Advanced iConnect Project Grant ADV 320708"
+    },
+    {
+      "funder_name": "the Netherlands Organisation for Scientific Research (Language in Interaction Project Gravitation Grant 024.001.006)"
+    }
+  ],
+  "acknowledgements": "We thank Frans Leijten, Cyrille Ferrier, Geert-Jan Huiskamp, Sandra van der Salm and Tineke Gebbink for help with collecting data; Peter Gosselaar and Peter van Rijen for implanting the electrodes; the technicians and staff of the clinical neurophysiology department and the patients for their time and effort; and the members of the UMC Utrecht ECoG research team for data collection. We also thank the Swedish Film Institute film company for their help and the provided materials."
+}
