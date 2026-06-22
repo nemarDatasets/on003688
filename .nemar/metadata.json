@@ -1,46 +1,114 @@
 {
   "version": "2.0",
-  "dataset_id": "on003688",
-  "source": "openneuro",
-  "source_id": "ds003688",
+  "pipeline_stage": "enriched",
   "title": "Open multimodal iEEG-fMRI dataset from naturalistic stimulation with a short audiovisual film",
-  "authors": {
-    "Julia Berezutskaya": {},
-    "Mariska J. Vansteensel": {},
-    "Erik J. Aarnoutse": {},
-    "Zachary V. Freudenburg": {},
-    "Giovanni Piantoni": {},
-    "Mariana P. Branco": {},
-    "Nick F. Ramsey": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Julia Berezutskaya": {
+      "orcid": "0000-0002-2005-8758"
+    },
+    "Mariska J. Vansteensel": {
+      "orcid": "0000-0002-9252-5116"
+    },
+    "Erik J. Aarnoutse": {
+      "orcid": "0000-0001-7648-250X"
+    },
+    "Zachary V. Freudenburg": {},
+    "Giovanni Piantoni": {},
+    "Mariana P. Branco": {
+      "orcid": "0000-0002-7316-8846"
+    },
+    "Nick F. Ramsey": {}
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003688.v1.0.7",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003688",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003688",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-022-01173-0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2021.06.09.447733",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2.1",
-  "recording_modality": [
-    "anat",
-    "func",
-    "ieeg"
-  ],
-  "datatypes": [
-    "anat",
-    "func",
-    "ieeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Advanced iConnect Project Grant ADV 320708"
+      "funder_name": "Advanced iConnect Project",
+      "award_number": "ADV 320708"
     },
     {
-      "funder_name": "the Netherlands Organisation for Scientific Research (Language in Interaction Project Gravitation Grant 024.001.006)"
+      "funder_name": "Netherlands Organisation for Scientific Research",
+      "award_number": "024.001.006",
+      "award_title": "Language in Interaction Project Gravitation Grant"
     }
   ],
-  "acknowledgements": "We thank Frans Leijten, Cyrille Ferrier, Geert-Jan Huiskamp, Sandra van der Salm and Tineke Gebbink for help with collecting data; Peter Gosselaar and Peter van Rijen for implanting the electrodes; the technicians and staff of the clinical neurophysiology department and the patients for their time and effort; and the members of the UMC Utrecht ECoG research team for data collection. We also thank the Swedish Film Institute film company for their help and the provided materials."
+  "modalities": [
+    "ieeg",
+    "anat",
+    "func"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gitattributes",
+    ".gz",
+    ".jpg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This open multimodal dataset combines intracranial EEG (iEEG) recordings and functional MRI data acquired simultaneously from patients with epilepsy during naturalistic audiovisual film stimulation. The dataset includes electrocorticographic recordings from implanted electrodes and whole-brain fMRI scans collected during passive viewing of a short film, providing a unique resource for studying neural responses to complex naturalistic stimuli across multiple spatial and temporal scales.",
+  "methods_description": "Data were collected using simultaneous iEEG and fMRI acquisition during passive viewing of a short audiovisual film. Intracranial electrodes were implanted for clinical purposes in patients with epilepsy, and fMRI scans were acquired concurrently with electrocorticographic recordings.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "functional MRI"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "naturalistic stimulation"
+    },
+    {
+      "term": "audiovisual processing"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "simultaneous recording"
+    },
+    {
+      "term": "film stimulus"
+    }
+  ],
+  "source_hash": "479501c41594a1acd40d71871cea31833f01fa7d5242d552ca95502c8b1c284a"
 }
