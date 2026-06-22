@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Open multimodal iEEG-fMRI dataset from naturalistic stimulation with a short audiovisual film",
+  "description": "This open multimodal dataset combines intracranial electroencephalography (iEEG) and functional magnetic resonance imaging (fMRI) recordings from patients during naturalistic audiovisual film stimulation. The dataset includes simultaneous electrocorticography and fMRI data collected during a short film presentation, providing a unique resource for investigating neural responses to complex naturalistic stimuli across multiple recording modalities and spatial scales.",
+  "methods_description": "Data were collected using simultaneous iEEG and fMRI recordings during presentation of a short audiovisual film. Intracranial electrodes were surgically implanted for clinical purposes, and fMRI was acquired concurrently with the iEEG recordings during the naturalistic stimulus presentation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,14 +21,33 @@
     "Mariana P. Branco": {
       "orcid": "0000-0002-7316-8846"
     },
-    "Nick F. Ramsey": {}
+    "Nick F. Ramsey": {
+      "orcid": "0000-0002-7136-259X"
+    }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003688.v1.0.7",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "iEEG"
     },
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "naturalistic stimulation"
+    },
+    {
+      "term": "audiovisual processing"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003688",
       "identifier_type": "URL",
@@ -46,6 +67,11 @@
       "identifier": "10.1101/2021.06.09.447733",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003688.v1.0.7",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -59,14 +85,14 @@
       "award_title": "Language in Interaction Project Gravitation Grant"
     }
   ],
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg",
     "anat",
     "func"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "16.4 GB (687 files)"
   ],
   "formats": [
     ".eeg",
@@ -77,38 +103,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This open multimodal dataset combines intracranial EEG (iEEG) recordings and functional MRI data acquired simultaneously from patients with epilepsy during naturalistic audiovisual film stimulation. The dataset includes electrocorticographic recordings from implanted electrodes and whole-brain fMRI scans collected during passive viewing of a short film, providing a unique resource for studying neural responses to complex naturalistic stimuli across multiple spatial and temporal scales.",
-  "methods_description": "Data were collected using simultaneous iEEG and fMRI acquisition during passive viewing of a short audiovisual film. Intracranial electrodes were implanted for clinical purposes in patients with epilepsy, and fMRI scans were acquired concurrently with electrocorticographic recordings.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "electrocorticography"
-    },
-    {
-      "term": "functional MRI"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "naturalistic stimulation"
-    },
-    {
-      "term": "audiovisual processing"
-    },
-    {
-      "term": "epilepsy"
-    },
-    {
-      "term": "simultaneous recording"
-    },
-    {
-      "term": "film stimulus"
-    }
-  ],
-  "source_hash": "479501c41594a1acd40d71871cea31833f01fa7d5242d552ca95502c8b1c284a"
+  "source_hash": "4f1548a6c652921050b4a6107dce81261039970eb669a75c9b1a1b5253cbb6fd"
 }
