@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003688-blue)](https://doi.org/10.82901/nemar.on003688)
+
 Open iEEG-fMRI dataset from stimulation with a short audiovisual film
 
 Full description of the data in our dataset paper: https://www.nature.com/articles/s41597-022-01173-0
